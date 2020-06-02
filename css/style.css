@@ -7,7 +7,7 @@ margin: auto;
 
 header {
 font-family: "verdana";
-background-image: url("header.jpg"); 
+background-image: url("../images/header.jpg"); 
 padding: 15px; 
 
 }
@@ -17,6 +17,23 @@ padding: 15px;
 
 }
 
+nav {
+background-color: #a7d7f2;
+overflow: auto;
+padding: 15px;
+
+}
+
+a {
+
+  padding: 8px;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "arial";
+  
+  }
 
 
 
