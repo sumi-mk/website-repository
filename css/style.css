@@ -1,5 +1,5 @@
 html {
-background-color: white;
+background-color:#def3ff;
 max-width: 980px;
 margin: auto; 
 
@@ -105,7 +105,7 @@ img {
 }
 
 .captions {
-border: solid black 1px;
+border: solid #2c8db0 1px;
 padding: 3px;
 text-align: center;
 }
@@ -144,6 +144,7 @@ footer {
 background-color: #a7d7f2;
 overflow: auto;
 padding: 15px;
+font-family: "arial";
 
 }
 
