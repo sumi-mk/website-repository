@@ -1,6 +1,6 @@
 html {
 background-color: white;
-max-width: 960px;
+max-width: 980px;
 margin: auto; 
 
 }
@@ -38,16 +38,23 @@ a {
 body {
 background-color:#def3ff;
 font-size: 14px;
+
 }
 
 
 article {
-max-width: 580px;
+max-width: 550px;
 padding-left: 20px;
 font-family: "arial";
 font-size: 14px;
+float: center;
+background-color:#def3ff;
+
 
 }
+
+
+
 
 h2 {
 font-family: "arial";
@@ -60,10 +67,11 @@ padding-top: 10px
 
 h3 {
 font-size: 15px;
+color: #2c8db0;
 }
 
 hr.hr1 {
-  border: 1px solid #2c8db0;
+  border: 1px dashed #2c8db0;
   
 }
 
@@ -73,14 +81,47 @@ hr.hr1 {
 display: inline-block;
 list-style:none;
 padding-left: 170px;
+z
 
+}
+
+
+
+
+.aside {
+
+    float: right;
+    vertical-align:top;
+	margin: 20px;
+	padding: 5px;
+	overflow: auto;
+	
+	
+
+}
+
+img {
+	border: 7px solid lightblue;
+}
+
+.captions {
+border: solid black 1px;
+padding: 3px;
+text-align: center;
+}
+
+section {
+
+float: center;
+display: inline-block;
 
 }
 
 
 .showmore {
-  font-size: 1.1em;
+  font-size: 14px;
   margin-top: 1.5em;
+  
 }
 
 .showmore .more, .showmore.show .dots {
@@ -99,5 +140,11 @@ padding-left: 170px;
   font-weight: bold;
 }
 
+footer {
+background-color: #a7d7f2;
+overflow: auto;
+padding: 15px;
+
+}
 
 
